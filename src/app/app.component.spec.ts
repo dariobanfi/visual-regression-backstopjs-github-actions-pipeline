@@ -26,10 +26,14 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('demo');
   });
 
+  it('1 + 1 should always be 2, come on!', () => {
+    expect(1 + 1).toEqual(2);
+  });
+
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('demo app is running!');
+    expect(compiled.querySelector('h1').textContent).toContain('Visual Regression Testing Demo!');
   });
 });
