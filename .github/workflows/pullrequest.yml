@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 
 jobs:
-  test-and-build:
+  pullrequest:
     runs-on: ubuntu-18.04
 
     steps:

@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Visual_Regression_Testing_Sample_0_document_0_phone.png",
-        "test": "../bitmaps_test/20200313-094429/backstop_default_Visual_Regression_Testing_Sample_0_document_0_phone.png",
+        "test": "../bitmaps_test/20200313-103234/backstop_default_Visual_Regression_Testing_Sample_0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_Visual_Regression_Testing_Sample_0_document_0_phone.png",
         "label": "Visual Regression Testing Sample",
@@ -20,15 +20,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "3.94",
+          "analysisTime": 16
+        },
+        "diffImage": "../bitmaps_test/20200313-103234/failed_diff_backstop_default_Visual_Regression_Testing_Sample_0_document_0_phone.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Visual_Regression_Testing_Sample_0_document_1_tablet.png",
-        "test": "../bitmaps_test/20200313-094429/backstop_default_Visual_Regression_Testing_Sample_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20200313-103234/backstop_default_Visual_Regression_Testing_Sample_0_document_1_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Visual_Regression_Testing_Sample_0_document_1_tablet.png",
         "label": "Visual Regression Testing Sample",
@@ -44,10 +46,12 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "0.78",
+          "analysisTime": 37
+        },
+        "diffImage": "../bitmaps_test/20200313-103234/failed_diff_backstop_default_Visual_Regression_Testing_Sample_0_document_1_tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     }
   ],
   "id": "backstop_default"
