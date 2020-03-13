@@ -2,8 +2,6 @@ name: Angular CI
 
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
@@ -27,3 +25,4 @@ jobs:
       run: npm test -- --configuration=ci
     - name: E2E
       run: npm run e2e -- --configuration=ci
+
